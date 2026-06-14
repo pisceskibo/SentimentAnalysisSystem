@@ -1,5 +1,7 @@
 # Sentiment Analysis System
 Hệ thống phân tích cảm xúc bình luận
++ Backend Language: Python
++ Frontend Language: VueJS, JavaScript, CSS
 
 ## 1. Tạo sinh dữ liệu:
 + Tự tạo mock data gồm 1000 bình luận tiếng việt về sản phẩm xe ô tô bao gồm các nhãn `positive`, `negative`, `neural` đa dạng và thực tế.
@@ -9,8 +11,8 @@ Hệ thống phân tích cảm xúc bình luận
 + Sử dụng kiến trúc TF-IDF kết hợp Logistic Regression.
 + Loại dữ liệu: văn bản bình luận ngắn.
 + Lý do sử dụng:
-    * Tối ưu hóa tài nguyên phần cứng: Mô hình huấn luyện cực nhanh mà không cần cấu hình hạ tầng GPU.
-    * Tính năng N-gram nắm bắt ngữ cảnh tiếng việt khá tốt, đặc biệt là các biến có tính phân loại.
+    * Tối ưu hóa tài nguyên phần cứng: Mô hình huấn luyện cực nhanh mà không cần cấu hình hạ tầng GPU lớn.
+    * Tính năng N-gram của kiến trúc TF-IDF nắm bắt ngữ cảnh tiếng việt khá tốt khi trích xuất văn bản thô thành các vector chuẩn hóa, đặc biệt là các biến có tính phân loại.
     * Mô hình Logistic Regression cơ bản, phù hợp cho bài toán với dữ liệu phân loại dựa trên nhãn.
 
 ## 3. Chiến lược lựa chọn chỉ số phù hợp:
