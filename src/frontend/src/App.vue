@@ -11,18 +11,15 @@ const analyzeSentiment = async () => {
   loading.value = true
 
   try {
-
     const response = await axios.post(
       "http://localhost:5000/predict",
       {
         text: text.value
       }
     )
-
     result.value = response.data
 
   } catch (error) {
-
     result.value = {
       status: "error",
       message:
@@ -39,9 +36,7 @@ const analyzeSentiment = async () => {
 
   <div class="container">
 
-    <h1>
-      Phân tích cảm xúc bình luận ô tô
-    </h1>
+    <h1>Phân tích cảm xúc bình luận xe ô tô</h1>
 
     <textarea
       v-model="text"
@@ -50,11 +45,7 @@ const analyzeSentiment = async () => {
 
     <br>
 
-    <button @click="analyzeSentiment">
-
-      Phân tích
-
-    </button>
+    <button @click="analyzeSentiment"> Phân tích </button>
 
     <div
       v-if="loading"
@@ -99,6 +90,13 @@ textarea{
 
 .result{
   margin-top:20px;
+}
+
+h1{
+  text-align:center;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 </style>
