@@ -11,6 +11,9 @@ samples = [
     ("Tiết kiệm nhiên liệu cực kỳ, chạy dịch vụ hay gia đình đều ổn.", "positive"),
     ("Màn hình giải trí mượt, loa nghe hay, đáng tiền.", "positive"),
     ("Hệ thống treo êm ái, đi qua gờ giảm tốc không bị xóc nảy.", "positive"),
+    ("Động cơ turbo tăng tốc bốc, cảm giác lái thể thao rất phấn khích.", "positive"),
+    ("Nội thất bọc da cao cấp, không gian ngồi hàng ghế sau cực kỳ rộng rãi.", "positive"),
+    ("Hệ thống an toàn chủ động ADAS hoạt động rất nhạy và chuẩn xác.", "positive")
 
     # Negative
     ("Vỏ xe hơi mỏng, đi tốc độ cao nghe tiếng lốp vọng vào cabin rất khó chịu.", "negative"),
@@ -18,13 +21,19 @@ samples = [
     ("Xe hay bị lỗi vặt về cảm biến, mang ra hãng bảo hành suốt phát mệt.", "negative"),
     ("Động cơ hơi yếu, mỗi lần muốn vượt xe tải trên cao tốc là hụt hơi.", "negative"),
     ("Chi phí bảo dưỡng của hãng quá đắt đỏ, dịch vụ chăm sóc khách hàng kém.", "negative"),
+    ("Nhựa nội thất nhìn rẻ tiền, chạy qua đường xấu là nghe tiếng lọc cọc.", "negative"),
+    ("Đèn pha nguyên bản theo xe tối quá, đi đêm trời mưa tầm nhìn rất hạn chế." "negative"),
+    ("Hộp số giật cục khi đi trong phố đông người, trải nghiệm kém mượt mà.", "negative")
 
     # Neutral
     ("Xe này nhìn cũng bình thường, không có gì quá nổi bật.", "neutral"),
     ("Giá lăn bánh tầm 700 triệu thì cũng là một lựa chọn để cân nhắc.", "neutral"),
     ("Tôi đang phân vân xe này với một dòng xe khác cùng phân khúc.", "neutral"),
     ("Xe mới mua nên chưa có đánh giá gì nhiều, cần trải nghiệm thêm.", "neutral"),
-    ("Thông số kỹ thuật thấy ghi giống bản cũ, không thay đổi mấy.", "neutral")
+    ("Thông số kỹ thuật thấy ghi giống bản cũ, không thay đổi mấy.", "neutral"),
+    ("Mức tiêu hao nhiên liệu đường hỗn hợp tầm bao nhiêu lít thế các bác?", "neutral"),
+    ("Hãng mới công bố giá niêm yết rồi, không biết khi nào xe về đại lý.", "neutral"),
+    ("Phụ tùng dòng xe này bên ngoài có dễ thay thế và sẵn hàng không nhỉ?", "neutral")
 ]
 
 modifiers = ["", "Nhìn chung ", "Thực sự thì ", "Ôi dào, ", "Đánh giá khách quan: ", "Nói chung là "]
