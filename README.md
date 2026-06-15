@@ -32,7 +32,7 @@ python -m venv .venv
 .\.venv\Scripts\activate
 ```
 
-## 2. Tải thư viện bắt buộc
+## 2. Tải thư viện bắt buộc:
 ```bash
 pip install -r requirements.txt
 ```
